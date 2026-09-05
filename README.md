@@ -4,15 +4,15 @@ tree for storage/lookup) and a Python Tkinter frontend (GUI).
 ```
 banking_app/
 ├── cpp/
-│   ├── Account.h      # struct Account + enum AccountType (blueprint for an account)
-│   ├── Account.cpp     # enum <-> string helpers
-│   ├── BST.h            # binary search tree that stores accounts, keyed by ID
+│   ├── Account.h      
+│   ├── Account.cpp     
+│   ├── BST.h            
 │   ├── BST.cpp
-│   └── main.cpp        # CLI backend: create / find / auth / deposit / withdraw
+│   └── main.cpp        
 ├── python/
-│   └── bank_gui.py     # Tkinter GUI (talks to the compiled backend via subprocess)
+│   └── bank_gui.py     
 ├── data/
-│   └── accounts.dat    # generated automatically the first time you create an account
+│   └── accounts.dat    
 ├── Makefile
 └── README.md
 ```
